@@ -92,7 +92,15 @@ footer{
     padding-right: 30px;
     padding-left: 80px;
 }
-
+.caixa4{
+    border: 0px solid #e0e0e0 ;
+    padding: 5px 5px 0px 0px;
+    background-color:white ;
+    text-align: center  ;
+    color:#fff;
+    font-family: 'inherit';
+    font-size: 40px;    
+}
 .linktira{
     text-decoration:none;
 
@@ -149,4 +157,11 @@ img.missao{
     height: 10%;
     margin-left: auto;
     margin-right: auto;
+}
+.border{
+    border: 15% solid #e0e0e0;
+}
+img.imagen2{
+    width: 400px;
+    height: 290px;
 }
