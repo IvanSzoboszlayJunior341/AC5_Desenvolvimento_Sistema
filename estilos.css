@@ -1,3 +1,6 @@
+body{
+    background-color: #e1f5fe;
+}
 .centro{
     text-align: left;
     text-decoration:none;
@@ -32,13 +35,7 @@ header{
     padding-bottom: 2px;
     padding-left: 30px;
   }
-img.logo{
-    max-width: 100%;
-    height: auto;
-    width:30%;
-    height:30%;
-    alt:"Logo FIND";
-}
+
 .logo{
     padding: 0 0 2px 15px;
     width: 450px;
@@ -62,8 +59,9 @@ footer{
 }
 .caixa{
     border: 0px solid #e0e0e0 ;
-    padding: 15px 25px 0px 0px;
+    padding: 50px 0px 50px 0px;
     background-color: #01579b ;
+    
     text-align: center  ;
     color:#fff;
     font-family: 'inherit';
@@ -71,8 +69,6 @@ footer{
 }
 .caixa2{
     border: 0px solid #000 ;
-    
-    background-color: #e1f5fe;
     text-align: center  ;
     color:#000;
     font-family: 'inherit' ;
@@ -82,7 +78,6 @@ footer{
 }
 .caixa3{
     border: 0px solid #000 ;
-    background-color: #b3e5fc;
     text-align: center ;
     color:#000;
     font-family: 'inherit' ;
@@ -95,7 +90,7 @@ footer{
 .caixa4{
     border: 1px solid #000 ;
     padding: 5px 5px 0px 0px;
-    background-color:white ;
+    background-color:white;
     text-align: center  ;
     color:#fff;
     font-family: 'inherit';
@@ -112,37 +107,49 @@ h1.centro1{
     font-family: 'inherit';
     font-size: 40px;
 }
+h1.centro2{
+    font-size: 37px
+}
+h1{
+    font-family: 'inherit';
+}
+p{
+    font-family: 'inherit';
+}
+
+
 h2.titulo{
-    font-size: 20px;
+    font-size: 28px;
     font-family: inherit;
     letter-spacing: 0.1em;
-    padding: 20px 0 20px 0;
+    padding: 35px 0 25px 0;
 }
 iframe {
-    width: 560px;
-    height: 290px ;
+    width: 100%;
+    height: 100%;
 }
-img.imagen{
-    width: 500px;
-    height: 290px;
+.espaco_icone{
+    padding: -5px 0 0 0 ;
 }
+
 .espaco{
     padding: 25px 0 30px 0;
 }
 .espaco_inicio{
-    padding-bottom: 60px;
+    padding-bottom: 15px;
     padding-top: 60px;
     padding-right: 0px;
     padding-left: 0px;
-    background-color: blanchedalmond;
+    background-color: #e1f5fe;
 }
 .espaco_texto{
     padding-bottom: 5px;
     padding-top: 35px;
 }
 .espaco_text{
-    padding-bottom: 5px;
+    padding-bottom: 1px;
     padding-top: 20px;
+    font-size: 18px;
 }
 
 .objeto_centro{
@@ -157,29 +164,36 @@ img.imagen{
 }
 .noticia{
     text-align: center;
-    background: #b3e5fc;
-   
+    background: #e1f5fe;
     padding-bottom: 0px;
     padding-top: 10px;
 
 
 }
 .card{
-    width: 18rem;
-    
-}
-img.missao{
-    width: 30%;
-    height: 10%;
-    margin-left: auto;
-    margin-right: auto;
+    width: 20rem;   
 }
 .border{
     border: 0px solid #000;
 }
+img.logo{
+    max-width: 100%;
+    height: auto;
+    width:30%;
+    height:30%;
+    alt:"Logo FIND";
+}
+img.padrao_caixa{
+    width: auto;
+    height: auto;
+}
 img.imagen2{
     width: 400px;
     height: 290px;
+}
+img.icone{
+    width: 20%;
+    height: 20%;
 }
 
 hr{
@@ -187,18 +201,28 @@ hr{
     border:none; 
     color:#000; 
     background-color:#01579b  ; 
-    margin-top: 0px; 
     margin-bottom: 10px; 
     margin-right: 45%;
     margin-left: 45%;
 }
-hr.caixa9{
+hr.separa_caixa{
     height:4px; 
     border:none; 
     color:#000; 
     background-color:#01579b  ; 
-    margin-top: 0px; 
     margin-bottom: 10px; 
     margin-right: 43%;
     margin-left: 43%;
+}
+hr.intero{
+    height:4px; 
+    border:none; 
+    color:#000; 
+    background-color:#01579b  ; 
+    margin-bottom: 5px; 
+    margin-right: 5%;
+    margin-left: 5%;
+}
+p.tamanho{
+    font-size: 35px;
 }
