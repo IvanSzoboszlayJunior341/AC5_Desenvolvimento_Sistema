@@ -248,3 +248,15 @@ table{
     border-radius: 20px;
     box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.08)
 }
+
+p.lista{
+    font-size: 13px
+
+}
+.botao{
+    background-color: #1a237e;
+    color: #fff;
+}
+.botao:hover{
+    background-color: #1a237e;
+}
