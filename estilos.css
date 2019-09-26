@@ -234,3 +234,11 @@ h1.espaco_dic{
     padding-top: 15px;
     padding-bottom: 15px;
 }
+
+.tabela { 
+    background-color:#ffffff;
+    padding:20px;
+    border: 1px solid #d4e1ea;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.08)
+}
