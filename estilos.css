@@ -199,7 +199,10 @@ img.icone{
     width: 20%;
     height: 20%;
 }
-
+img.construcao{
+    width: 750px;
+    height: 500px;
+}
 hr{
     height:4px; 
     border:none; 
@@ -234,13 +237,10 @@ h1.espaco_dic{
     padding-top: 15px;
     padding-bottom: 15px;
 }
-
-
 img.cursos{
     width:100px;
     height:170px;
 }
-
 table{ 
     background-color:#ffffff;
     padding:20px;
