@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet"  href="{{url_for('static',filename='estilos.css')}}">
+        <link rel="stylesheet"  href="{{url_for('static',filename='java.js')}}">
+
+
+    <title>DETALHE DO CURSO</title>
+
+    </head>
+
+
+    <body>
+        <!-- Header -->
+        <header class="centro">
+            <div class="container-fluid">
+                <div class="row">
+                    <!--Imagen Logo-->
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="../static/img/templatemo_logo.png"  class="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <!--barra de navegaçao-->
+                    <!--justify-content-end -->
+                    <div class="col-md-9">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/" >HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/Cursos">CURSOS</a>
+                            </li>
+                            <!--<li class="nav-item">
+                                <a class="nav-link nav-item active onde menu" href="detalhedecurso.html">DETALHE</a>
+                            </li>-->
+                            <li class="nav-item">
+                                <a class="nav-link " href="/Detalhecurso">DISCIPLINA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="/Noticias">NOTICIA</a>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+    <div class="container-fluid">
+        <div class="row caixa3" class='border'>
+            <div class="col-md-7">
+            <p></p>
+            <hr class "separar_caixa">
+            <h4 class="centro1"> Sobre o Curso de Banco De Dados</h4>
+            O Curso Superior de Tecnologia em Banco de Dados traz conceitos baseados nos aprendizados de Big Data e Data Science com objetivo de satisfazer a crescente demanda de profissionais que serão capazes de criar soluções inovadoras a partir de dados.
+            </br> A Faculdade FIND, tem por objetivo formar profissionais que aplicarão soluções inteligentes e analíticas após a construção uma base de dados, gerando insight para tomadas de decisões para melhoria e crescimento de um negócio, seja ele gerencial ou financeiro.
+            </br> Ao longo do curso, o aluno desenvolverá habilidades nos conhecimentos de linguagem de programação, mineração, modelagem e segurança de dados, estatística aplicada, modelagem de banco de dados relacionais e não relacionais e tomada de decisões baseada em grandes volumes de dados.
+            </div>
+                <div class="col-md-5">
+                    <p></p>
+                    </br><img src="../static/img/BD_1.jpg" class='imagen2'  >
+                    </div>
+        </div>
+    </div> 
+
+    <div class="container-fluid">
+        <div class="row caixa2">
+            <div class="col-md-5">
+                <img src="../static/img/BD_2.jpg" class='imagen2'>
+            </div>
+            <div class="col-md-7">
+                <hr class "separar_caixa">
+                <h4 class="centro1"> Mercado de Trabalho </h4>
+                O Tecnólogo de Banco de dados encontrará oportunidades nas mais diversas áreas, como em atividades estratégicas, tecnológicas, administrativas, financeiras e sociais.
+                </br> Com o volume de informações geradas diariamente pelas empresas, o mercado está em busca de profissionais capazes de interpretá-los e gerar resultados positivos e crescentes baseado nesses dados. Visando o crescimento da empresa em qualquer dos seguimentos requeridos.
+                </br> O profissional de Banco de dados poderá atuar em áreas como o de Administrador de Banco de Dados (DBA), Engenheiro de Dados, Desenvolvedor de Projetos e Consultor de Banco de Dados, Business Intelligence, Analista de Dados, Data Science, Engenheiro de Big Data, Gerente de Segurança de Dados. Áreas cujo mercado está superaquecido e que conta com ótimas remunerações. 
+            </div>
+                    
+        </div>
+    </div>       
+
+    <div class="container-fluid">
+        <div class="row caixa3">
+            <div class="col-md-12">
+                </br> 
+                <center> <h4> Turma 2020 </h4> </center>
+                    <hr class "separar_caixa">
+                <table class="table table-borderless "> <!--table-dark (pra deixar preto)-->
+                    <tr>
+                        <th> Local </th>
+                        <th> Duração </th>
+                        <th> Horário </th>
+                        <th> Mensalidade </th>
+                    </tr>
+                                        
+                    <tr>
+                        <td> Campus Barra Funda </td>
+                        <td> 2 anos (1920 horas) </td>
+                        <td> Matutino - 08h00 às 11h40 </td>
+                        <td> R$ 570,00 </td>
+                    </tr>
+                    
+                    <tr>
+                        <td> Campus Paulista  </td>
+                        <td> 2 anos (1920 horas) </td>
+                        <td> Noturno - 19h00 às 22h40 </td>
+                        <td> R$ 670,00 </td>
+                    </tr>
+                                          
+                </table>
+            </div>
+                    
+        </div>
+    </div>   
+    <footer>
+        <h6 class="letra">TODOS OS DIREITO RESERVADO A FIND ©2019</h6>
+    </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+
+</html>
