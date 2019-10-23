@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet"  href="{{url_for('static',filename='estilos.css')}}">
+    <link rel="stylesheet"  href="{{url_for('static',filename='java.js')}}">
+
+    <title>CURSOS</title>
+
+    </head>
+
+
+    <body>
+        <!-- Header -->
+        <header class="centro">
+            <div class="container-fluid">
+                <div class="row">
+                    <!--Imagen Logo-->
+                    <div class="col-md-3">
+                        <div class="logo">
+                            <a href="/">
+                                <img src="../static/img/templatemo_logo.png"  class="logo">
+                            </a>
+                        </div>
+                    </div>
+                    <!--barra de navegaçao-->
+                    <!--justify-content-end -->
+                    <div class="col-md-9">
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a class="nav-link" href="/" >HOME</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link nav-item active onde menu" href="/Cursos">CURSOS</a>
+                            </li>
+                            <!--<li class="nav-item">
+                                <a class="nav-link " href="detalhedecurso.html">DETALHE</a>
+                            </li>-->
+                            <li class="nav-item">
+                                <a class="nav-link " href="/Disciplina">DISCIPLINA</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " href="/Noticias">NOTÍCIA</a>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+
+ <div class="col-md-12 noticia">
+            <hr class="intero">
+            <h1 class="objeto_centro">LISTA DE CURSOS</h1><br>
+        </div>
+        
+        <div class="container-fluid">
+            <div class="row caixa3 objeto_centro">
+                <!--Primeiro CARD-->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../static/img/seg.info.jpg" class="card-img-top"/>
+                           
+                        <div class="card-body">
+                            <h5 class="card-title">DEFESA CYBERNÉTICA</h5>
+                            <p class="lista"> CYBER SECURITY, HACKER, TECNOLOGIA DA INFORMAÇÃO.<br></p>
+                            <a href="/Detalhecurso" class="btn btn-info">SAIBA MAIS</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Segundo CARD-->
+                <div class="col-md-4">
+                    <div class="card" >
+                        <img src="../static/img/Banco2.jpeg" class="card-img-top" alt="trabalho">
+        
+                        <div class="card-body">
+                            <h5 class="card-title">TECNOLOGIA EM BANCO DE DADOS</h5>
+                            <p class="lista">DATA SCIENCE, BIG DATA & BI</p><br>
+                            <a href="/Detalhecurso" class="btn btn-primary botao">SAIBA MAIS</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Terceiro CARD-->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../static/img/sis.info.png" class="card-img-top" alt="codigo">
+                
+                        <div class="card-body">
+                            <h5 class="card-title">SISTEMAS DE INFORMAÇÃO</h5>
+                            <p class="lista">SOFTWARE ENGINEERING & ARTIFICIAL INTELLIGENCE</p>
+                            <a href="/Detalhecurso" class="btn btn-info">SAIBA MAIS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      
+
+
+
+        
+        <div class="container-fluid">
+            <div class="row caixa3 objeto_centro">
+                <!--Quarto CARD-->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../static/img/jogos.dig.webp" class="card-img-top" alt="...">
+                           
+                        <div class="card-body">
+                            <h5 class="card-title">JOGOS DIGITAIS</h5>
+                            <p class="lista"> DESIGN DE GAMES E GAME PROGRAMMING<br></p>
+                            <a href="/Detalhecurso" class="btn btn-info">SAIBA MAIS</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Quinto CARD-->
+                <div class="col-md-4">
+                    <div class="card" >
+                        <img src="../static/img/redes2.png" class="card-img-top" alt="trabalho">
+        
+                        <div class="card-body">
+                            <h5 class="card-title">REDES DE COMPUTADORES</h5>
+                            <p class="lista">IOT, CLOUD & INFRA</p><br>
+                            <a href="/Detalhecurso" class="btn btn-info">SAIBA MAIS</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Sexto CARD-->
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../static/img/eng3.jpg" class="card-img-top" alt="codigo">
+                
+                        <div class="card-body">
+                            <h5 class="card-title">ENGENHARIA MECATRÔNICA</h5>
+                            <p class="lista">ROBOTICS SYSTEMS & MACHINE LEARNING</p>
+                            <a href="/Detalhecurso" class="btn btn-info ">SAIBA MAIS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <footer>
+        <h6 class="letra">TODOS OS DIREITO RESERVADO A FIND ©2019</h6>
+    </footer>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+
+</html>
