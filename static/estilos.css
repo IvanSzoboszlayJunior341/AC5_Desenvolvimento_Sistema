@@ -1,0 +1,262 @@
+body{
+    background-color: #e1f5fe;
+}
+.centro{
+    text-align: left;
+    text-decoration:none;
+    background-color: #fff   ;
+    color: #2196f3 ;
+}
+a{
+    color: #1976d2  ;
+    font-family: 'inherit';
+    font-size: 125%;
+    line-height: 40px;
+    margin-left: 15px;
+
+}
+a:hover{
+    color: #fff;
+    background-color: #2196f3;
+    line-height: 40px;
+    margin-left: 15px;
+}
+a.onde{
+    color: #1976d2  ;
+}
+a.onde:hover{
+    color:#fff;
+}
+header{
+    border: 1px solid #e0e0e0;
+    background-color: lightblue;
+    padding-top: 5px; 
+    padding-right: 30px;
+    padding-bottom: 2px;
+    padding-left: 30px;
+  }
+
+.logo{
+    padding: 0 0 2px 15px;
+    width: 450px;
+    text-decoration:none;
+}
+.letra{
+    color: #eeeeee    ;
+    font-family: 'inherit';
+    font-size: 125%;
+    line-height: 40px;
+    margin-left: 15px;
+}
+footer{
+    text-align: center; 
+    background-color: #8a8a8a;
+    padding: 0 0 -1 15px;
+}
+.banner{
+    width:150px;
+    height:425px;
+}
+.caixa{
+    border: 0px solid #e0e0e0 ;
+    padding: 50px 0px 50px 0px;
+    background-color: #01579b ;
+    
+    text-align: center  ;
+    color:#fff;
+    font-family: 'inherit';
+    font-size: 40px;    
+}
+.caixa2{
+    border: 0px solid #000 ;
+    text-align: center  ;
+    color:#000;
+    font-family: 'inherit' ;
+    font-size: 17px;   
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.caixa3{
+    border: 0px solid #000 ;
+    text-align: center ;
+    color:#000;
+    font-family: 'inherit' ;
+    font-size: 17px;
+    padding-bottom: 20px;
+    padding-top: 6px;
+    padding-right: 30px;
+    padding-left: 80px;
+}
+.caixa4{
+    border: 1px solid #000 ;
+    padding: 5px 5px 0px 0px;
+    background-color:white;
+    text-align: center  ;
+    color:#fff;
+    font-family: 'inherit';
+    font-size: 40px;    
+}
+.linktira{
+    text-decoration:none;
+
+}
+
+h1.centro1{
+    text-align: center;
+    color: #000;
+    font-family: 'inherit';
+    font-size: 40px;
+}
+h1.centro2{
+    font-size: 37px
+}
+h1{
+    font-family: 'inherit';
+}
+p{
+    font-family: 'inherit';
+}
+
+
+h2.titulo{
+    font-size: 28px;
+    font-family: inherit;
+    letter-spacing: 0.1em;
+    padding: 35px 0 25px 0;
+}
+iframe {
+    width: 560px;
+    height: 290px;
+}
+.espaco_icone{
+    padding: -5px 0 0 0 ;
+}
+
+.espaco{
+    padding: 25px 0 30px 0;
+}
+.espaco_inicio{
+    padding-bottom: 15px;
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-color: #e1f5fe;
+}
+.espaco_texto{
+    padding-bottom: 5px;
+    padding-top: 35px;
+}
+.espaco_text{
+    padding-bottom: 1px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.objeto_centro{
+    text-align: center;
+}
+.objeto_right{
+    text-align: right;
+}
+.objeto_left{
+    text-align: left;
+
+}
+.noticia{
+    text-align: center;
+    background: #e1f5fe;
+    padding-bottom: 0px;
+    padding-top: 10px;
+
+
+}
+.card{
+    width: 20rem;   
+}
+.border{
+    border: 0px solid #000;
+}
+img.logo{
+    max-width: 100%;
+    height: auto;
+    width:30%;
+    height:30%;
+    alt:"Logo FIND";
+}
+img.padrao_caixa{
+    width: auto;
+    height: auto;
+}
+img.padrao_caixa_dic{
+    width: 300px;
+    height: 300px;
+}
+img.imagen2{
+    width: 400px;
+    height: 290px;
+}
+img.icone{
+    width: 20%;
+    height: 20%;
+}
+img.construcao{
+    width: 750px;
+    height: 500px;
+}
+hr{
+    height:4px; 
+    border:none; 
+    color:#000; 
+    background-color:#01579b  ; 
+    margin-bottom: 10px; 
+    margin-right: 45%;
+    margin-left: 45%;
+}
+hr.separa_caixa{
+    height:4px; 
+    border:none; 
+    color:#000; 
+    background-color:#01579b  ; 
+    margin-bottom: 10px; 
+    margin-right: 43%;
+    margin-left: 43%;
+}
+hr.intero{
+    height:4px; 
+    border:none; 
+    color:#000; 
+    background-color:#01579b  ; 
+    margin-bottom: 5px; 
+    margin-right: 5%;
+    margin-left: 5%;
+}
+p.tamanho{
+    font-size: 35px;
+}
+h1.espaco_dic{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+img.cursos{
+    width:100px;
+    height:170px;
+}
+table{ 
+    background-color:#ffffff;
+    padding:20px;
+    border: 1px solid #d4e1ea;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px 5px rgba(0, 0, 0, 0.08)
+}
+
+p.lista{
+    font-size: 13px
+
+}
+.botao{
+    background-color: #1a237e;
+    color: #fff;
+}
+.botao:hover{
+    background-color: #1a237e;
+}
